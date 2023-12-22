@@ -1,0 +1,27 @@
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-image {
+    width: 20%
+}
+
+.section-title {
+    width: 80%
+}
+
+.section-container-break {
+    border: 1px solid black;
+}
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color:rgb(57, 57, 57);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.5rem;
+    margin-bottom: 5px;
+}
