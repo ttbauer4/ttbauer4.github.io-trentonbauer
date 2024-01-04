@@ -80,12 +80,50 @@
 }
 
 footer {
+    color:rgb(57, 57, 57);
+    margin-bottom: 5px;
+}
+
+.footer-text {
     display: flex;
     align-content: center;
     justify-content: center;
     text-align: center;
-    color:rgb(57, 57, 57);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.5rem;
-    margin-bottom: 5px;
+}
+
+.footer-link-grid-container {
+    display: grid;
+    grid-template-columns: 35% auto auto auto 35%;
+    grid-template-rows: 100%;
+}
+
+.footer-link-grid-item-1 {
+    grid-column: 2 / 3;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-link-grid-item-2 {
+    grid-column: 3 / 4;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-link-grid-item-3 {
+    grid-column: 4 / 5;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-link-grid-spacer-start {
+    grid-column: 1 / 2; 
+}
+
+.footer-link-grid-spacer-end {
+    grid-column: 5 / 6; 
 }
