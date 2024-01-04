@@ -4,11 +4,12 @@
 }
 
 .section-image {
-    width: 20%
+    width: 20%;
 }
 
 .section-title {
-    width: 80%
+    width: 80%;
+    text-align: center;
 }
 
 .section-container-break {
