@@ -18,6 +18,7 @@ def submit():
     image_filepath = image_explorer.cget("text")
     image_name = image_filepath[image_filepath.rindex("/")+1:]
     image_alt = image_alt_entry.get()
+    window.destroy()
 
     # move image to images directory
     subprocess.run(["image-mover.bat", image_filepath.replace("/", "\\")])
