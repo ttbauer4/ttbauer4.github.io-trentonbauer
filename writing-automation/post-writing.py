@@ -30,7 +30,7 @@ def submit():
         inserthtml = inserthtml.replace("%ALTTARGET%", image_alt)
         inserthtml = inserthtml.replace("%TITLETARGET%", title)
         inserthtml = inserthtml.replace("%SUBTITLETARGET%", subtitle)
-        body_text = body_text.replace("\n", "</p>\n            <p>")
+        body_text = body_text.replace("\n", "</p>\n            <p>").replace("<p></p>", "<br>")
         inserthtml = inserthtml.replace("%BODYTARGET%", body_text)
     
     # edit writing.html
