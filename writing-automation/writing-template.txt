@@ -1,0 +1,16 @@
+
+        <div class="section-header-container">
+            <div class="section-image">
+                <img src="../images/%IMAGETARGET%" alt="%ALTTARGET%" style="width:100%">
+            </div>
+            <div class="section-title">
+                <h1>%TITLETARGET%</h1>
+            </div>
+            <div class="section-subtitle">
+                <h2>%SUBTITLETARGET%</h2>
+            </div>
+        </div>
+        <div class="section-body-container">
+            <p>%BODYTARGET%</p>
+        </div>
+        <hr class="section-break">
