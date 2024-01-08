@@ -4,10 +4,10 @@
                 <img src="../images/%IMAGETARGET%" alt="%ALTTARGET%" style="width:100%">
             </div>
             <div class="section-title">
-                <h1>%TITLETARGET%</h1>
+                <h2>%TITLETARGET%</h2>
             </div>
             <div class="section-subtitle">
-                <h2>%SUBTITLETARGET%</h2>
+                <h3>%SUBTITLETARGET%</h3>
             </div>
         </div>
         <div class="section-body-container">

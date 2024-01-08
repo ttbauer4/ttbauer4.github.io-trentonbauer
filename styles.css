@@ -1,21 +1,34 @@
 body {
-    background-color: #f4fff8;
+    background-color: #fcffeb;
+}
+
+a {
+    color:#2b303a;
+}
+
+a:hover {
+    color: #57504D
+}
+
+.subpage-header {
+    color: #ffffff00;
+    font-size: 0rem;
 }
 
 .section-header-container {
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 1.25rem;
-    color: #000F08;
+    color: #2b303a;
 }
 
 .section-image {
     width: 100%;
     grid-column: 1 / 2;
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
 }
 
 .section-title {
@@ -23,6 +36,12 @@ body {
     grid-row: 1 / 2;
     margin-left: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 1.15em;
+    margin-top: 0.67em;
+    margin-bottom: 0.5em;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 .section-subtitle {
@@ -31,9 +50,17 @@ body {
     margin-left: 2.25rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.5rem;
+    color: #57504D;
+    display: block;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 .link-grid-container {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
     display: grid;
     grid-template-columns: 0.5rem auto auto auto auto auto;
     grid-template-rows: 100%;
@@ -80,8 +107,8 @@ body {
 }
 
 .link-grid-button {
-    background-color: #1c3738;
-    color: #f4fff8;
+    background-color: #D64933;
+    color: #fcffeb;
     width: 100%;
     font-size: 1rem;
     padding: 20px;
@@ -90,7 +117,8 @@ body {
 }
 
 .link-grid-button:hover {
-    box-shadow: 5px 4px 5px 2px #4D4847;
+    color: #fcffeb;
+    box-shadow: 5px 4px 5px 2px #57504D;
 }
 
 .new-window-icon {
@@ -110,11 +138,10 @@ p {
 }
 
 .section-break {
-    border: 1px solid black;
+    border: 1px solid #57504D;
 }
 
 footer {
-    color:rgb(57, 57, 57);
     margin-bottom: 5px;
 }
 
@@ -125,6 +152,7 @@ footer {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.5rem;
+    color:#2b303a;
 }
 
 .footer-link-grid-container {
