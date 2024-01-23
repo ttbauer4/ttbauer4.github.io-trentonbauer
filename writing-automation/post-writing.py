@@ -32,6 +32,7 @@ def submit():
         inserthtml = inserthtml.replace("%SUBTITLETARGET%", subtitle)
         body_text = body_text.replace("\n", "</p>\n            <p>").replace("<p></p>", "<br>")
         inserthtml = inserthtml.replace("%BODYTARGET%", body_text)
+        inserthtml = inserthtml.replace("%IDTARGET%", title.lower().strip().replace(" ", "-"))
     
     # edit writing.html
     with open("../pages/writing.html", "r") as file:

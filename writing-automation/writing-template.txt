@@ -1,5 +1,5 @@
 
-        <div class="section-header-container">
+        <div class="section-header-container" id="%IDTARGET%">
             <div class="section-image">
                 <img src="../images/%IMAGETARGET%" alt="%ALTTARGET%" style="width:100%">
             </div>
