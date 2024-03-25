@@ -1,17 +1,21 @@
 body {
-    background-color: #fcffeb;
+    background-color: #fffaef;
+}
+
+h1 {
+    font-weight: lighter;
 }
 
 a {
-    color:#2b303a;
+    color:#0f0f0f;
 }
 
 a:hover {
-    color: #57504D
+    color: #1e3934
 }
 
 .subpage-header {
-    color: #ffffff00;
+    color: #0f0f0f;
     font-size: 0rem;
 }
 
@@ -23,7 +27,7 @@ a:hover {
     margin-right: 2rem;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-    color: #2b303a;
+    color: #0f0f0f;
 }
 
 .project-header-container {
@@ -34,7 +38,7 @@ a:hover {
     margin-right: 2rem;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-    color: #2b303a;
+    color: #0f0f0f;
 }
 
 .section-image {
@@ -49,7 +53,7 @@ a:hover {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin-left: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
     display: block;
     font-size: 1.15em;
     margin-top: 0.67em;
@@ -61,13 +65,13 @@ a:hover {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     margin-left: 2.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.5rem;
-    color: #57504D;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    font-size: 0.6rem;
+    color: #0f0f0f;
     display: block;
-    margin-top: 0.83em;
     margin-bottom: 0.83em;
     font-weight: bold;
+    font-style: italic;
 }
 
 .link-grid-container {
@@ -87,39 +91,39 @@ a:hover {
     grid-column: 2 / 3;
     text-align: center;
     font-size: 1.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .link-grid-item-2 {
     grid-column: 3 / 4;
     text-align: center;
     font-size: 1.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .link-grid-item-3 {
     grid-column: 4 / 5;
     text-align: center;
     font-size: 1.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .link-grid-item-4 {
     grid-column: 5 / 6;
     text-align: center;
     font-size: 1.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .link-grid-item-5 {
     grid-column: 6 / 7;
     text-align: center;
     font-size: 1.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .link-grid-button {
-    background-color: #D64933;
+    background-color: #d97c15;
     color: #fcffeb;
     width: 100%;
     font-size: 1rem;
@@ -130,7 +134,7 @@ a:hover {
 
 .link-grid-button:hover {
     color: #fcffeb;
-    box-shadow: 5px 4px 5px 2px #57504D;
+    box-shadow: 5px 4px 5px 2px #1e3934;
 }
 
 .new-window-icon {
@@ -146,34 +150,34 @@ a:hover {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     margin-left: 2.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .section-body-container {
     display: grid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
 .project-headline {
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: lighter;
     font-style: italic;
-    color: #57504D;
+    color: #0f0f0f;
 }
 
 .project-description {
     line-height: 1.25rem;
     margin-bottom: 0.1rem;
     font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
     font-weight: lighter;
-    color: #57504D;
+    color: #0f0f0f;
 }
 
 .section-break {
-    border: 1px solid #57504D;
+    border: 1px solid #1e3934;
 }
 
 footer {
@@ -185,14 +189,14 @@ footer {
     align-content: center;
     justify-content: center;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
     font-size: 0.5rem;
-    color:#2b303a;
+    color:#0f0f0f;
 }
 
 .footer-link-grid-container {
     display: grid;
-    grid-template-columns: 35% auto auto auto 35%;
+    grid-template-columns: 35% auto auto auto auto 35%;
     grid-template-rows: 100%;
 }
 
@@ -200,21 +204,28 @@ footer {
     grid-column: 2 / 3;
     text-align: center;
     font-size: 0.75rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .footer-link-grid-item-2 {
     grid-column: 3 / 4;
     text-align: center;
     font-size: 0.75rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .footer-link-grid-item-3 {
     grid-column: 4 / 5;
     text-align: center;
     font-size: 0.75rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+}
+
+.footer-link-grid-item-4 {
+    grid-column: 5 / 6;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .footer-link-grid-spacer-start {
@@ -222,5 +233,5 @@ footer {
 }
 
 .footer-link-grid-spacer-end {
-    grid-column: 5 / 6; 
+    grid-column: 6 / 7; 
 }
