@@ -1,0 +1,16 @@
+        
+        <a href="writings/%NEWFILENAME%" class="writing-tile-link">
+            <div class="writing-tile-container">
+                <div class="writing-preview-image-container">
+                    <img src="../images/%IMAGETARGET%" alt="%ALTTARGET%" class="writing-preview-image">
+                </div>
+                <div class="writing-preview-title-container">
+                    <h2 class="writing-preview-title">%TITLETARGET%</h2>
+                </div>
+                <div class="writing-preview-text-container">
+                    <h3 class="writing-preview-text">
+                        %BODYTARGET%
+                    </h3>
+                </div>
+            </div>
+        </a>
